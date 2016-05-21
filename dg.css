@@ -37,7 +37,7 @@ body {
 	line-height: 1;
     width: 100%;
     height: 100%;
-    font-family:'futura';
+    font-family:'futura'
  }
 ol, ul {
 	list-style: none;
@@ -63,11 +63,11 @@ a{
     text-decoration: none;
 }
 @font-face{
-    font-family:'futura';
+    font-family:'futura',Arial,sans-serif;;
     src: url('FUTURAL.TTF');
 }
 @font-face{
-    font-family:'futuraB';
+    font-family:'futuraB',Arial,sans-serif;;
     src: url('FUTURAB.TTF');
 }
 #header{
@@ -225,6 +225,7 @@ a{
 }
 .bigImgright_Wrap img{
     width: 100%;
+    height:inherit;
 }
 .bigImgright_Wrap>div{
     float: left;
@@ -262,6 +263,7 @@ a{
 }
 .bigImgleft_Wrap img{
     width: 100%;
+    height: inherit;
 }
 .bigImgleft_Wrap>div{
     float: right;
