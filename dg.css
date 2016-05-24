@@ -37,8 +37,8 @@ body {
 	line-height: 1;
     width: 100%;
     height: 100%;
-    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
- }
+    font-family: 'Oswald', sans-serif;
+}
 ol, ul {
 	list-style: none;
 }
@@ -62,14 +62,8 @@ a{
     color: black;
     text-decoration: none;
 }
-@font-face{
-    font-family:'futura';
-    src: url('FUTURAL.TTF') format('truetype');
-}
-@font-face{
-    font-family:'futuraB';
-    src: url('FUTURAB.TTF') format('truetype');
-}
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 #header{
     width: 100%;
     height: 80px;
@@ -160,10 +154,10 @@ a{
     text-align: center;
 }
 .small_Wrap h2{
-    font-family: 'futuraB';
     font-size: 25px;
     margin-bottom:10px;
     margin-top:15px;
+    font-family: 'Montserrat', sans-serif;
 }
 .small_Wrap p{
     font-size: 16px;
@@ -196,9 +190,9 @@ a{
     text-align: center;
 }
 .smallbg_Wrap h2{
-    font-family: 'futuraB';
     font-size: 25px;
     margin-bottom:10px;
+    font-family: 'Montserrat', sans-serif;
 }
 .smallbg_Wrap p{
     font-size: 16px;
@@ -246,9 +240,9 @@ a{
     margin-left: 6%;
 }
 .bigImgright_Wrap h1{
-    font-family: 'futuraB';
     font-size: 40px;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 .bigImgright_Wrap strong{
     font-size: 15px;
@@ -284,9 +278,9 @@ a{
     margin-right: 2%;
 }
 .bigImgleft_Wrap h1{
-    font-family: 'futuraB';
     font-size: 40px;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 .bigImgleft_Wrap strong{
     font-size: 15px;
@@ -349,7 +343,6 @@ a{
     
 }
 .sns h3{
-    font-family: 'futuraB';
     font-size: 25px;
 }
 .sns ul{
@@ -452,6 +445,7 @@ a{
     font-size: 25px;
     margin-bottom: 15px;
     font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
 }
 .subFigure_wrap strong{
     font-size: 15px;
@@ -500,6 +494,7 @@ a{
     font-size: 25px;
     margin-bottom: 15px;
     font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
 }
 .smallsubFigure_wrap strong{
     font-size: 15px;
