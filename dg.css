@@ -589,12 +589,14 @@ a{
         font-size: 40px;
     }
     .mb_Nav>ul{
+        overflow: scroll;
         display: none;
         left: -500px;
         position: absolute;
         z-index: 99;
         background-color: white;
         width: 400px;
+        height:500px;
         margin-top: 20px;
     }
     .mb_Nav>ul>li{
