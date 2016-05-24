@@ -37,7 +37,7 @@ body {
 	line-height: 1;
     width: 100%;
     height: 100%;
-    font-family:'futura';
+    font-family:'futura',sans-serif;
  }
 ol, ul {
 	list-style: none;
