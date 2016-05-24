@@ -22,6 +22,12 @@ $(document).ready(function(){
             $(this).css("text-decoration","underline");
         }
     });
+    $(".dg_Logo").mouseover(function(){
+        $(this).css("cursor","pointer");
+    });
+    $(".dg_Logo").click(function(){
+        location.href="#";
+    })
     $(".navbar a").mouseout(function(){
         $(this).css("text-decoration","none");
         });
@@ -78,6 +84,32 @@ $(document).ready(function(){
     });
     $(".back a").click(function(){
          $('html, body').animate({scrollTop: $("main").offset().top},1000);
+    });
+    $(".mb_Nav div").click(function(){
+        if($(this).html()==="="){
+            $(this).html("&times");
+           $(".mb_Nav>ul").show().animate({left:"-20px"});
+            $(".modal").show();
+        }else{
+            $(this).html("&#61");
+            $(".mb_Nav>ul").show().animate({left:"-500px"});
+            $(".modal").hide();
+        }
+    });
+    $(".mb_Women").click(function(){
+        $(".mbSub_Women").slideToggle();
+        $(".mbSub_Men").slideUp();
+        $(".mbSub_Child").slideUp();
+    });
+    $(".mb_Men").click(function(){
+        $(".mbSub_Men").slideToggle();
+        $(".mbSub_Women").slideUp();
+        $(".mbSub_Child").slideUp();
+    });
+    $(".mb_Child").click(function(){
+        $(".mbSub_Child").slideToggle();
+        $(".mbSub_Women").slideUp();
+        $(".mbSub_Men").slideUp();
     });
 });
 $(document).ready(function(){
