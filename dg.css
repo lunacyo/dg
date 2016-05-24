@@ -651,7 +651,9 @@ a{
         
 }
     .mb_Nav>ul{
-        width: 300px;
+        overflow: scroll;
+        width: 200px;
+        height:350px;
     }
     .small_Wrap{
         margin: 0;
