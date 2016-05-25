@@ -65,11 +65,11 @@ a{
 }
 @font-face{
     font-family:'futura';
-    src: url('FUTURAL.TTF');
+    src: url(../fonts/FUTURAL.TTF);
 }
 @font-face{
     font-family:'futuraB';
-    src: url('FUTURAB.TTF');
+    src: url(../fonts/FUTURAB.TTF);
 }
 #header{
     width: 100%;
