@@ -736,7 +736,8 @@ a{
     .main_Img{
         width: 100%;
         height:300px;
-        border: 1px solid lime;
+        border: 1px solid red;
         background: url("./dgimg/dolce-and-gabbana-summer-2016-women-advertising-campaign-01-banner-hp.jpeg");
+        background-size: 100%;
     }
 }
