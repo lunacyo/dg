@@ -92,7 +92,7 @@ $(document).ready(function(){
             $(".modal").show();
         }else{
             $(this).html("&#61");
-            $(".mb_Nav>ul").show().animate({left:"-500px"});
+            $(".mb_Nav>ul").show().animate({left:"-800px"});
             $(".modal").hide();
         }
     });
