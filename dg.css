@@ -691,6 +691,15 @@ a{
         width: 90%;
         margin-top: 30px;
     }
+    .small_Wrap h2{
+        font-size: 20px;
+    }
+    .small_Wrap strong{
+        font-size: 13px;
+    }
+    .small_Wrap p{
+        font-size: 14px;
+    }
     .small_Wrap img{
         height: 200px;
     }
@@ -700,6 +709,15 @@ a{
     .smallbg_Wrap figure{
         width: 90%;
         margin-top: 30px;
+    }
+    .smallbg_Wrap h2{
+        font-size: 20px;
+    }
+    .smallbg_Wrap strong{
+        font-size: 13px;
+    }
+    .smallbg_Wrap p{
+        font-size: 14px;
     }
     .bigImgright_Wrap{
         display: none;
